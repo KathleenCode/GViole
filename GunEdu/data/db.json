@@ -1,0 +1,89 @@
+{
+    "SDGs": [
+        {
+            "id": 1,
+            "entails": "No Poverty",
+            "details": "End poverty in all its forms everywhere"
+        },
+        {
+            "id": 2,
+            "entails": "Zero Hunger",
+            "details": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture"
+        },
+        {
+            "id": 3,
+            "entails": "Good Health And Well-Being",
+            "details": "Ensure healthy lives and promote well-being for all at all ages"
+        },
+        {
+            "id": 4,
+            "entails": "Quality Education",
+            "details": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all"
+        },
+        {
+            "id": 5,
+            "entails": "Gender Equality",
+            "details": "Achieve gender equality and empower all women and girls"
+        },
+        {
+            "id": 6,
+            "entails": "Clean Water and Sanitation",
+            "details": "Ensure availability and sustainable management of water and sanitation for all"
+        },
+        {
+            "id": 7,
+            "entails": "Affordable and Clean Energy",
+            "details": "Ensure access to affordable and reliable sustainable and modern energy for all"
+        },
+        {
+            "id": 8,
+            "entails": "Decent work and economic growth",
+            "details": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all"
+        },
+        {
+            "id": 9,
+            "entails": "Industry, innovation and infrastructure",
+            "details": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation"
+        },
+        {
+            "id": 10,
+            "entails": "Reduced inequalities",
+            "details": "Reduce inequality within and among countries"
+        },
+        {
+            "id": 11,
+            "entails": "Sustainable cities and communities",
+            "details": "Make cities and human settlements inclusive, safe, resilient and sustainable"
+        },
+        {
+            "id": 12,
+            "entails": "Responsible consumption and production",
+            "details": "Ensure sustainable consumption and production patterns"
+        },
+        {
+            "id": 13,
+            "entails": "Climate Action",
+            "details": "Take urgent action to combat climate change and its impacts"
+        },
+        {
+            "id": 14,
+            "entails": "Life Below Water",
+            "details": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development"
+        },
+        {
+            "id": 15,
+            "entails": "Life on land",
+            "details": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reserve land degradation and halt biodiversity loss"
+        },
+        {
+            "id": 16,
+            "entails": "Peace, justice and strong institutions",
+            "details": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels"
+        },
+        {
+            "id": 17,
+            "entails": "Partnerships for the goals",
+            "details": "Strengthen the means of implementation and revitalize the Global Partnership for sustainable development"
+        }
+    ]
+}

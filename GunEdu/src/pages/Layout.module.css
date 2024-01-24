@@ -1,0 +1,150 @@
+.layo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 10px;
+}
+
+.layo span {
+    font-size: 2rem;
+    font-family: 'Rubik Burned', system-ui;
+}
+
+.layo ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.layo ul li {
+    list-style: none;
+}
+
+.layo ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.layo ul li a:hover {
+    text-decoration: overline;
+    text-decoration-color: #16FF00;
+}
+
+.ham input {
+    appearance: none;
+}
+
+@media only screen and (max-width: 600px) {
+ .ham {
+    display: block;
+ }
+
+ .ham::after,
+ .ham::before,
+ .ham input {
+    content: "";
+    width: 70px;
+    height: 10px;
+    background-color: #E0BB20;
+    display: block;
+    transform-origin: left center;
+ }
+
+ .ham:has(input:checked)::after {
+    transform: rotate(-45deg);
+    width: 40px;
+ }
+
+ .ham:has(input:checked)::before {
+    transform: rotate(45deg);
+    width: 40px;
+ }
+
+ .ham:has(input:checked) input {
+    opacity: 0;
+ }
+
+ .layo {
+    position: relative;
+ }
+
+ .ham:has(input:checked) + nav ul li a {
+    display: block;
+    color: #1D1919;
+ }
+
+ .ham:has(input:checked) + nav ul {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 2rem;
+    right: 1rem;
+    background-color: #FFCE76;
+    border-radius: 17px;
+    border: 5px dotted #62374E;
+    z-index: 1;
+ }
+
+ .layo  nav ul li a {
+    display: none;
+ }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+    .ham {
+        display: block;
+     }
+    
+     .ham::after,
+     .ham::before,
+     .ham input {
+        content: "";
+        width: 90px;
+        height: 13px;
+        background-color: #FC6B3F;
+        display: block;
+        transform-origin: left center;
+     }
+    
+     .ham:has(input:checked)::after {
+        transform: rotate(-45deg);
+        width: 50px;
+     }
+    
+     .ham:has(input:checked)::before {
+        transform: rotate(45deg);
+        width: 50px;
+     }
+    
+     .ham:has(input:checked) input {
+        opacity: 0;
+     }
+    
+     .layo {
+        position: relative;
+     }
+    
+     .ham:has(input:checked) + nav ul li a {
+        display: block;
+        color: #C93D1B;
+     }
+    
+     .ham:has(input:checked) + nav ul {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top: 3rem;
+        right: 3rem;
+        background-color: #F1D18A;
+        border-radius: 17px;
+        border: 5px dotted #04322E;
+        z-index: 1;
+     }
+    
+     .layo  nav ul li a {
+        display: none;
+     }
+    
+}
